@@ -25,6 +25,9 @@ body {
   height: 150px;
   border-radius: 10px;
   margin: 30% auto 5% auto;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
 }
 
 button {
