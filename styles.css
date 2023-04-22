@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #0b2447;
+}
+
+.container {
+  display: flex;
+  background-color: #f6f1f1;
+  width: 80%;
+  margin: 40% auto;
+  display: grid;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+}
+
+img {
+  width: 20%;
+}
+
+.result {
+  background-color: #0b2447;
+  width: 300px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.player-one {
+  display: flex;
+  flex-direction: column;
+}
+
+.player-two {
+  display: flex;
+  flex-direction: column;
+}
