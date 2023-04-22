@@ -14,7 +14,7 @@ body {
   justify-content: space-evenly;
   background-color: #f6f1f1;
   width: 60%;
-  margin: 5% auto;
+  margin: 2% auto;
   gap: 10px;
   border-radius: 10px;
 }
@@ -35,4 +35,17 @@ button {
   padding: 30px;
   margin: 30px;
   cursor: pointer;
+}
+
+.reset-btn {
+  padding: 15px;
+  width: 10%;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: 1% auto;
 }

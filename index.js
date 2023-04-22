@@ -2,6 +2,7 @@ const rock = document.querySelector(".rock");
 const paper = document.querySelector(".paper");
 const scissors = document.querySelector(".scissors");
 const result = document.querySelector(".results");
+const reset = document.querySelector(".reset-btn");
 
 function rockChoice() {
   let choiceOne = Math.floor(Math.random() * 3);
@@ -39,6 +40,11 @@ function scissorsChoice() {
   console.log(choiceThree);
 }
 
+function resetGame() {
+  result.innerHTML = "";
+}
+
 rock.addEventListener("click", rockChoice);
 paper.addEventListener("click", paperChoice);
 scissors.addEventListener("click", scissorsChoice);
+reset.addEventListener("click", resetGame);
